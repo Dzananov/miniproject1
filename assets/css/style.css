@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap");
 
 .bg-color-name-title {
-    background-color: rgb(88, 24, 55);
+    background-color:#bd55bd;
 }
 header {
 
     margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
