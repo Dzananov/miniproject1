@@ -1,8 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@200&family=Montserrat:wght@200&display=swap");
 
+/*Colours*/
 .bg-color-name-title {
-    background-color:#bd55bd;
+    background-color:#504334;
 }
+.ui-color-name-title {
+    background-color: #148119;
+
+}
+
+.ui-color-contact-title{
+    background-color:#f9f91c ;
+
+}
+
+.ui-color-resume-title {
+    background-color: #c5871c;
+}
+
+.ui-color-download-title{
+    background-color: #ef300f;
+}
+
+/*Heading*/
+
 header {
 
     margin: 0;
@@ -15,4 +36,47 @@ header {
 .logo {
     position: center;
     width: 100%;
+}
+
+.name {
+    font-family: "montserrat";
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: "montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size:0 ;
+}
+
+#nav li{
+    font-size: 14px;
+    padding:0;
+
+
+}
+
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
 }
