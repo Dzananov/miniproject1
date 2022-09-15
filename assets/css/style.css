@@ -21,8 +21,27 @@
 .ui-color-download-title{
     background-color: #ef300f;
 }
+/*paddings*/
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+ .general-sub {
+    font-family: montserrat;
+    font-weight: 300;
+    color: #fafafa;
+ }
+
 
 /*Heading*/
+
+#nav {
+    margin: 0;
+}
 
 header {
 
@@ -79,4 +98,81 @@ header {
     text-decoration: none;
     color: #fff;
     height: 120px;
+}
+
+.menu-item a i{
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 22px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*Hoover*/
+
+.hvr-sweep-to-top:before { /*dont work*/
+    background: #148119;
+    height: 120px;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(52, 132, 202);
+    color:#fafafa;
+    min-height: 120px;
+    margin: 0%;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+
+.cv-pfd i {
+    font-size:80px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+   
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footerdetalies {
+    padding: 20px;
 }
