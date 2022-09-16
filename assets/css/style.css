@@ -47,6 +47,15 @@ h1,h2,h3,h4{
 
 /*Heading*/
 
+#logo {
+    background: url("../images/djana.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    
+}
+
 #nav {
     margin: 0;
 }
